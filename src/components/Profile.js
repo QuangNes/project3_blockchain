@@ -52,7 +52,7 @@ export default function Profile () {
         updateData(items);
         updateFetched(true);
         updateAddress(addr);
-        updateTotalPrice(sumPrice.toPrecision(3));
+        updateTotalPrice(sumPrice.toPrecision(5));
     }
 
     const params = useParams();
